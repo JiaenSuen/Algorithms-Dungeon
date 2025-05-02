@@ -1,0 +1,40 @@
+資料表達 : 
+    由於皇后之間不可於同一條線上，因此可以編碼成一維Array，並且是不重複整數
+    int board[8]
+
+判斷是否衝突 :
+    如果兩者在同一斜線上，
+    根據棋盤斜率是 1 ，
+    其 x , y 兩點構成三角，
+    '底' 與 '高' 會一樣高
+    abs(prevCol - col) == abs(prevRow - row)
+
+
+solve 8Q :
+    從 column 0 開始到最後 
+    如果 此 column 已經被使用了 就不選
+    確認不衝突時，放下一顆 Queen
+    遞迴此 function 代入 (row +1)
+    直到 row 超過邊界
+
+    for (int col = 0; col < N; ++col) {
+        if (col_used[col]) continue;
+
+        if (isSafe(row, col)) {
+            board[row] = col;
+            col_used[col] = true;
+            solve(row + 1);  <--下一個column
+            col_used[col] = false; <-- 此處代表前面遞迴結束後撤回覆蓋回false
+        }
+    }
+
+紀錄 :
+    Queen   :   F-Solution
+    4       :   2
+    8       :   92
+    9       :   352
+    10      :   724
+    11      :   2680
+    12      :   14200
+
+

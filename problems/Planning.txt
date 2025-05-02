@@ -1,0 +1,7 @@
+Huffman Coding（霍夫曼編碼）
+
+Interval Scheduling with Weighted Intervals（帶權區間排程）
+
+Set Cover Problem（集合覆蓋問題）
+
+Job Scheduling with Deadlines（有截止時間的工作排程）
