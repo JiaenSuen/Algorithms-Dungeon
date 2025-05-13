@@ -9,9 +9,6 @@ using namespace std;
 
 
 
-
-
-
 struct g_Node {
     string name;
     int x , y ;
@@ -40,7 +37,6 @@ struct Edge {
 
 
 
-
 g_Node generate_node(){
     int x , y;
     random_device rd;
@@ -56,13 +52,9 @@ g_Node generate_node(){
 
 
 
-
- 
-
-
-
-vector<g_Node> run_TSP_in_greedy (vector<g_Node>& map )  {
+pair< vector<g_Node> , double > run_TSP_in_greedy (vector<g_Node>& map )  {
     vector<g_Node> result;
+    double total_cost = 0.0;
     g_Node current_node = {"O" , 0 , 0};
     result.push_back(current_node);
 
@@ -72,14 +64,16 @@ vector<g_Node> run_TSP_in_greedy (vector<g_Node>& map )  {
             [&](const g_Node& a, const g_Node& b) {
                 return node_distance(current_node, a) < node_distance(current_node, b);
             });
-
+        total_cost += node_distance(current_node, *it);
         current_node = *it;
         result.push_back(current_node);
         map.erase(it);
     }
+    total_cost += node_distance(current_node, {"O", 0, 0});
     result.push_back({"O", 0, 0});
-    return result;
+    return {result, total_cost};
 }
+
 
 
 
@@ -91,9 +85,10 @@ int main()
         cout<<(map[i]);
     }
     cout<<"\n\n";
-    vector<g_Node> result =  run_TSP_in_greedy(map);
+    pair< vector<g_Node> , double > result =  run_TSP_in_greedy(map);
     cout<<"Solution :\n";
-    for (auto& node:result)cout<<" "<<node.name<<"\t";
-    
+    for (auto& node:result.first)cout<<" "<<node.name<<"\t";
+    cout<<endl;
+    cout<<" Cost : "<< setw(10)<<result.second;
     return 0;
 }
