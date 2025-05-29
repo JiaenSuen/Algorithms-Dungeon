@@ -6,13 +6,13 @@
 
 class Solution {
     public:
-        vector<g_Node> path;
+        std::vector<g_Node> path;
         double cost;
 };
 
 
 double Cost_Evaluation(Solution& solution){
-    vector<g_Node> path;
+    std::vector<g_Node> path;
     path = solution.path;
     path.insert(path.begin(), g_Node("Start", 0, 0)); // Start  
     

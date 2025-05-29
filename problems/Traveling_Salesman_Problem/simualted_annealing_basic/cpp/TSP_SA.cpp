@@ -46,7 +46,7 @@ Solution TSP_SA( vector<g_Node>& map ) {
     double T = 1000.0;             
     double T_min = 1e-3;           
     double cooling_rate = 0.995;    
-    int max_iter = 5000;          
+    int max_iter = 1000;          
     // Parameters End
 
      

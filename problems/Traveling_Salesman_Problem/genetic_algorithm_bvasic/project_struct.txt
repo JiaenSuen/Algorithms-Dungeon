@@ -28,3 +28,8 @@ TSP_GA
 
 輸出最佳解
 
+
+
+Problem Rcording :
+    多樣性不足（genetic diversity loss）
+    Genetic Algorithm (GA) converges too early

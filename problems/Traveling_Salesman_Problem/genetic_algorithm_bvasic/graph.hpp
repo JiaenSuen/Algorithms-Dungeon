@@ -23,6 +23,12 @@ struct g_Node {
     double distance_to(g_Node& dest){
         return std::sqrt(std::pow(this->x - dest.x, 2) + std::pow(this->y - dest.y, 2));
     }
+
+
+
+    bool operator==(const g_Node& other) const {
+        return this->x == other.x && this->y == other.y && this->name == other.name ;
+    }
 };
 
 namespace path_utils {
@@ -44,7 +50,8 @@ namespace path_utils {
 
 namespace RNG {
     std::random_device rd;
-    std::mt19937 generator(0);
+    std::mt19937 generator(rd());
+    std::mt19937 generator_fixed(0);
     //std::mt19937 generator(rd());
 }
 
@@ -54,10 +61,10 @@ g_Node generate_node(){
     std::uniform_int_distribution<int> unif( -100 , 100 );
     std::uniform_int_distribution<int> letter_dist(0, 25);
     std::uniform_int_distribution<int> number_dist(1, 99);
-    char letter = 'A' + letter_dist(RNG::generator);
-    int number = number_dist(RNG::generator);
+    char letter = 'A' + letter_dist(RNG::generator_fixed);
+    int number = number_dist(RNG::generator_fixed);
     std::string id = std::string(1, letter) + std::to_string(number);
-    return  { id , unif(RNG::generator) , unif(RNG::generator)};
+    return  { id , unif(RNG::generator_fixed) , unif(RNG::generator_fixed)};
 }
  
 std::vector<g_Node> generate_map(unsigned int map_size){
