@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj": {}
+    "E:\\Project\\Algorithms-Dungeon-Study-Notes\\@Projects\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj": {}
   },
   "projects": {
-    "E:\\Project\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj": {
+    "E:\\Project\\Algorithms-Dungeon-Study-Notes\\@Projects\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj",
+        "projectUniqueName": "E:\\Project\\Algorithms-Dungeon-Study-Notes\\@Projects\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj",
         "projectName": "PANCAKE_GUI_01",
-        "projectPath": "E:\\Project\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj",
+        "projectPath": "E:\\Project\\Algorithms-Dungeon-Study-Notes\\@Projects\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\PANCAKE_GUI_01.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\obj\\",
+        "outputPath": "E:\\Project\\Algorithms-Dungeon-Study-Notes\\@Projects\\PANCAKE\\@WinForm_Dev\\PANCAKE_GUI_01\\PANCAKE_GUI_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

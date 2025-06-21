@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PANCAKE_GUI_01
-build_property.ProjectDir = E:\Project\PANCAKE\@WinForm_Dev\PANCAKE_GUI_01\PANCAKE_GUI_01\
+build_property.ProjectDir = E:\Project\Algorithms-Dungeon-Study-Notes\@Projects\PANCAKE\@WinForm_Dev\PANCAKE_GUI_01\PANCAKE_GUI_01\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
