@@ -2,7 +2,6 @@
 
 ![image](https://www.foodandwine.com/thmb/HVbJsZlSG7BQF1mif2Z5tZICM8g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Buttermilk-Pancakes-FT-RECIPE1222-5589088e52c94e6f8a610b4393196fbb.jpg)
 
-Project :  [Locate to PANCAKE](./@Projects/PANCAKE/)  
 <br>
 PANCAKE is an algorithm-driven application focused on optimal route planning for resource collection tasks. The system receives a demand list, which includes a set of required items, goods, or objectives that must be acquired during a patrol or outing. The goal is to identify the most efficient path through a graph-based map to collect all required items while minimizing cost or distance.
 
@@ -30,16 +29,18 @@ The project is a blend of combinatorial optimization and intelligent pathfinding
 <br>
 <br>
 
-![image](__/Demo.png)
+![image](__/PANCAKE_Demo.png)
 
 <br>
 
-![image](__/Demo2.png)
+![image](__/PANCAKE_Demo2.png)
 <br>
 
-[Data Structure](@Projects/PANCAKE/Dev/DataStruct.md)  
+[Data Structure](Dev/DataStruct.md)  
 <br>
-Execute Application on Windows  :  @Projects/PANCAKE/@WinForm_Dev/PANCAKE_GUI_01/PANCAKE_GUI_01/bin/Debug/net8.0-windows/PANCAKE_GUI_01.exe
+Execute Application on Windows  :  @WinForm_Dev/PANCAKE_GUI_01/PANCAKE_GUI_01/bin/Debug/net8.0-windows/PANCAKE_GUI_01.exe
+
+<br><br>
 ### Author
 
 Jiaen Suen
