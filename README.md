@@ -51,7 +51,7 @@ Processor Scheduler is a simulation project focused on solving  task matching an
 
 This project was developed as part of the Evolutionary Computation course project at National Kaohsiung University of Science and Technology (NKUST). It serves as an academic experiment in applying techniques such as genetic algorithms, simulated annealing, and other metaheuristics to classical scheduling problems.
 
-![image](\__Image__\Schedular\Gantt_Demo.png)
+![image](.\__Image__\Schedular\Gantt_Demo.png)
 Visualization Tools used : https://acaihi.github.io/TSM-V/
 
 #### Algorithm Implement and Experiment
