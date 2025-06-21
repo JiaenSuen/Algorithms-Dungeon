@@ -43,7 +43,7 @@ These are small projects that are used to practice algorithms in real scenarios 
 
 ## Processor Scheduler
 
-Project :  [Locate to Processor Scedular](./@Projects\Processor_Scheduler/)
+Project :  [Locate to Processor Scedular](./@Projects/Processor_Scheduler/)
 
 <br>
 
