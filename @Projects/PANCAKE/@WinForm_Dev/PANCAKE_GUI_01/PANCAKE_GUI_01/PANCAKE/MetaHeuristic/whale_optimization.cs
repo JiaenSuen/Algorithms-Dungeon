@@ -36,7 +36,7 @@ namespace Whale_optimization
             Solution = Metaheuristic_Interface.MH_init_Utils.Generate_Random_RAC_Path(map, demands);
         }
 
-        /// <summary>Encircle: SwapTowardBest — 讓當前解更靠近 global best。</summary>
+        ///  Encircle: SwapTowardBest — 讓當前解更靠近 global best 
         private void SwapTowardBest(Recommend_Aquire_Commodities_Path best, double A)
         {
             var path = Solution.Path;
@@ -59,7 +59,7 @@ namespace Whale_optimization
             Solution.Calculate_Cost();
         }
 
-        /// <summary>Spiral: TwoOptReverse — 局部子序列反轉。</summary>
+        ///  Spiral: TwoOptReverse — 局部子序列反轉。 
         private void TwoOptReverse()
         {
             var path = Solution.Path;
@@ -71,7 +71,7 @@ namespace Whale_optimization
             Solution.Calculate_Cost();
         }
 
-        /// <summary>Exploration: BlockShuffle — 隨機切段並重插。</summary>
+        /// Exploration: BlockShuffle — 隨機切段並重插。 
         private void BlockShuffle()
         {
             var path = Solution.Path;
@@ -87,7 +87,7 @@ namespace Whale_optimization
             Solution.Calculate_Cost();
         }
 
-        /// <summary>ChangeSource: 對隨機一項商品，改變其購買節點。</summary>
+        ///  ChangeSource: 對隨機一項商品，改變其購買節點。 
         private void ChangeSource(int strength)
         {
             var path = Solution.Path;
@@ -108,7 +108,7 @@ namespace Whale_optimization
             Solution.Calculate_Cost();
         }
 
-        /// 更新操作：根据 A, p 决定三种行为。
+         
         public Whale Update(Whale best, Whale randWhale, double a, double p)
         {
             // 複製自身
@@ -125,7 +125,7 @@ namespace Whale_optimization
                 }
                 else
                 {
-                    // Exploration towards random whale + 大跳躍
+                    // Exploration towards random whale 
                     offspring.Solution = ClonePath(randWhale.Solution);
                     offspring.BlockShuffle();
                 }
@@ -166,15 +166,15 @@ namespace Whale_optimization
             int numWhales = 20,
             int maxIter = 200)
         {
-            // 1. 初始化種群
+            //   初始化種群
             var pop = new List<Whale>();
             for (int i = 0; i < numWhales; i++)
                 pop.Add(new Whale(map, demands));
 
-            // 2. 初始最佳
+            //  初始最佳
             Whale best = pop.OrderBy(w => w.Cost).First();
 
-            // 3. 迭代
+            //  迭代
             for (int iter = 1; iter <= maxIter; iter++)
             {
                 double a = 2.0 * (1.0 - (double)iter / maxIter);
@@ -186,7 +186,7 @@ namespace Whale_optimization
                     Whale randWhale = pop[randIdx];
                     double p = rng.NextDouble();
                     var offspring = cur.Update(best, randWhale, a, p);
-                    // 保留更好者
+                    // 保留佳者
                     if (offspring.Cost < cur.Cost)
                         pop[i] = offspring;
                 }

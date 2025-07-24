@@ -65,7 +65,7 @@ namespace Basic_Algorithms_PANCAKE
 
                 if (bestNode == null || bestItem == null || bestItemName == null)
                 {
-                    Console.WriteLine("⚠️ 無法再找到任何符合的取購點，提前結束。");
+                    Console.WriteLine("無法再找到任何符合的取購點，提前結束。");
                     break;
                 }
                 path.Path.Add(new Aquire_Node(bestNode, bestItem));
@@ -93,7 +93,7 @@ namespace Basic_Algorithms_PANCAKE
             var origin = Params.pStart_Node;
             double unitCost = Params.pUnit_Cost;
 
-            // 1. 構建每節點覆蓋需求的集合 Cover[node] = list of demand indices
+            //  構建每節點覆蓋需求的集合 Cover[node] = list of demand indices
             var allNodes = map.Nodes;
             var cover = new Dictionary<Node, List<int>>();
             foreach (var node in allNodes)
@@ -105,7 +105,7 @@ namespace Basic_Algorithms_PANCAKE
                 if (covered.Any()) cover[node] = covered;
             }
 
-            // 2. 貪婪挑選：不斷選擇「成本效益最高」的節點
+            // 貪婪挑選：不斷選擇成本效益最高的節點
             var uncovered = new HashSet<int>(Enumerable.Range(0, m));
             var selected = new List<Node>();
             while (uncovered.Any())
@@ -137,7 +137,7 @@ namespace Basic_Algorithms_PANCAKE
                     uncovered.Remove(idx);
             }
 
-            // 3. 重建路徑
+            //  重建路徑
             var path = new Recommend_Aquire_Commodities_Path
             {
                 Start_Node = origin,
@@ -290,14 +290,14 @@ namespace Basic_Algorithms_PANCAKE
 }
 
 
-
+/* 下面是AI生成與實驗
 namespace Basic_Algorithms_PANCAKE
 {
     public static class ILP
     {
-        /// <summary>
+    
         /// 使用 OR-Tools CpModel 硬約束解最小成本取貨路徑 (ILP/CP-SAT)。
-        /// </summary>
+  
         public static Recommend_Aquire_Commodities_Path ILP_Method(Map map, List<string> demands)
         {
             int m = demands.Count;
@@ -430,7 +430,7 @@ namespace Basic_Algorithms_PANCAKE
 
 
 
-
+*/
 
 
 

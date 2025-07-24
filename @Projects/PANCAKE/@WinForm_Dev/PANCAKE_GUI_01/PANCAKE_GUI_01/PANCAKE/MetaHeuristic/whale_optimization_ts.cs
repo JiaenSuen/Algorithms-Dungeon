@@ -21,9 +21,7 @@ namespace Whale_optimization_TS
 
 
 
-
-    /// 離散鯨魚優化演算法 (Discrete Whale Optimization Algorithm) 用於最小成本取貨路徑。
-    /// 包含三種行為：Encircle, Spiral, Exploration。
+ 
 
     public class Whale_ts
     {
@@ -115,7 +113,7 @@ namespace Whale_optimization_TS
         }
 
    
-        /// 更新操作：根据 A, p 决定三种行为。
+     
         public Whale_ts Update(Whale_ts best, Whale_ts randWhale, double a, double p)
         {
             // 複製自身

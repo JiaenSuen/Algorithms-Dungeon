@@ -7,8 +7,6 @@ using PANCAKE_Params;
 namespace Ant_Colony
 {
 
-    /// <summary>
-    /// 5. 螞蟻演算法 (Ant Colony Optimization, ACO)
     /// 流程：
     ///  1. 初始化 pheromone (信息素) 矩陣，均設為 tau0
     ///  2. 重複 iter 次：
@@ -17,7 +15,6 @@ namespace Ant_Colony
     ///     b. 評估每隻螞蟻總成本
     ///     c. 更新信息素：蒸發 rho，然後依螞蟻路徑加強 Δtau=Q/Cost
     ///  3. 回傳最佳路徑
-    /// </summary>
     public static class ACO
     {
         // 參數
