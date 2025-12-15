@@ -44,4 +44,5 @@ These are small projects that are used to practice algorithms in real scenarios 
 
 Project :  [Locate to Processor Scedular](./@Projects/Processor_Scheduler/)  
 Project :  [Locate to PANCAKE](./@Projects/PANCAKE/)  
+Project :  [Locate to Encrypt Decrypt](./@Projects/EncryptDecrypt/)  
  
