@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\encrypt_decrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|solutionrelative:encrypt_decrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\encrypt_decrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|solutionrelative:encrypt_decrypt\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|e:\\school\\schooldata\\course\\algorithm\\encrypt_decrypt\\encrypt_decrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|solutionrelative:encrypt_decrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|e:\\school\\schooldata\\course\\algorithm\\encrypt_decrypt\\encrypt_decrypt\\cryptoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB799C8D-D2DF-4A11-8B5C-849DCECCA193}|Encrypt_Decrypt\\Encrypt_Decrypt.csproj|solutionrelative:encrypt_decrypt\\cryptoutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Program.cs",
+              "RelativeDocumentMoniker": "Encrypt_Decrypt\\Program.cs",
+              "ToolTip": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Program.cs",
+              "RelativeToolTip": "Encrypt_Decrypt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T05:50:53.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoUtils.cs",
+              "DocumentMoniker": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\CryptoUtils.cs",
+              "RelativeDocumentMoniker": "Encrypt_Decrypt\\CryptoUtils.cs",
+              "ToolTip": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\CryptoUtils.cs",
+              "RelativeToolTip": "Encrypt_Decrypt\\CryptoUtils.cs",
+              "ViewState": "AgIAAH8CAAAAAAAAAAAAAJECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:09:26.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Form1.cs",
+              "RelativeDocumentMoniker": "Encrypt_Decrypt\\Form1.cs",
+              "ToolTip": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Encrypt_Decrypt\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T08:03:30.177Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Form1.cs",
+              "RelativeDocumentMoniker": "Encrypt_Decrypt\\Form1.cs",
+              "ToolTip": "E:\\School\\SchoolData\\course\\algorithm\\Encrypt_Decrypt\\Encrypt_Decrypt\\Form1.cs",
+              "RelativeToolTip": "Encrypt_Decrypt\\Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T08:03:30.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

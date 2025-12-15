@@ -1,0 +1,10 @@
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\bin\Release\Encrypt_Decrypt.exe.config
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\bin\Release\Encrypt_Decrypt.exe
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\bin\Release\Encrypt_Decrypt.pdb
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.csproj.AssemblyReference.cache
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.Form1.resources
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.Properties.Resources.resources
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.csproj.GenerateResource.cache
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.csproj.CoreCompileInputs.cache
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.exe
+E:\School\SchoolData\course\algorithm\Encrypt_Decrypt\Encrypt_Decrypt\obj\Release\Encrypt_Decrypt.pdb
